@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 50px 0;
+}
+
+.project-card {
+    display: inline-block;
+    padding: 20px;
+    background: #444;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #222;
+    padding: 10px;
+}
