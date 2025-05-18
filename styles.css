@@ -74,26 +74,42 @@ section ul li {
     font-size: 1.05em;
 }
 
-/* Project Cards */
+#projects {
+  padding: 40px;
+  background-color: #1c1c1c;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#projects h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.project-container {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+}
+
 .project-card {
-    display: inline-block;
-    padding: 20px;
-    background: #444;
-    margin: 10px;
-    border-radius: 8px;
-    width: 280px;
-    vertical-align: top;
-    transition: transform 0.3s ease-in-out;
+  min-width: 320px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
 }
 
 .project-card:hover {
-    transform: scale(1.05);
+  transform: translateY(-5px);
 }
 
-.project-card h3 {
-    color: #00bfff;
-    margin-bottom: 10px;
-}
 
 /* Contact Links */
 #contact a {
