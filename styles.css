@@ -186,65 +186,34 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-#skills {
-  padding: 40px;
-  background-color: #f9f9f9;
-  font-family: 'Segoe UI', sans-serif;
-}
+<!-- Font Awesome CDN (place in <head> section) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-#skills h2, #skills h3 {
-  margin-bottom: 20px;
-  color: #333;
-}
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="icon-row">
+    <i class="fab fa-python" title="Python"></i>
+    <i class="fas fa-database" title="SQL"></i>
+    <i class="fas fa-code" title="R"></i>
+    <i class="fas fa-chart-bar" title="Power BI"></i>
+    <i class="fas fa-table" title="Excel"></i>
+    <i class="fas fa-chart-line" title="Stata"></i>
+    <i class="fas fa-superscript" title="LaTeX"></i>
+  </div>
 
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 15px;
-  margin-bottom: 30px;
-}
-
-.skill-card {
-  background-color: white;
-  border-radius: 10px;
-  padding: 15px;
-  text-align: center;
-  font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-  transition: transform 0.2s;
-}
-
-.skill-card i {
-  display: block;
-  font-size: 24px;
-  margin-bottom: 8px;
-  color: #007bff;
-}
-
-.skill-card:hover {
-  transform: scale(1.05);
-}
-
-.language {
-  margin-bottom: 15px;
-}
-
-.language span {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.bar {
-  height: 10px;
-  background-color: #ddd;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.fill {
-  height: 100%;
-  background-color: #007bff;
-  border-radius: 5px;
-}
-
+  <h3>Languages</h3>
+  <div class="language-bars">
+    <div class="lang">
+      <span>English</span>
+      <div class="bar"><div class="fill" style="width: 95%;"></div></div>
+    </div>
+    <div class="lang">
+      <span>Urdu</span>
+      <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+    </div>
+    <div class="lang">
+      <span>Pashto</span>
+      <div class="bar"><div class="fill" style="width: 100%;"></div></div>
+    </div>
+  </div>
+</section>
