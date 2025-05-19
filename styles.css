@@ -267,3 +267,24 @@ footer {
   border-radius: 5px;
   transition: width 0.6s ease;
 }
+
+#certifications ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#certifications li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#certifications a {
+  text-decoration: none;
+  color: #00bfff;
+  transition: color 0.3s ease;
+}
+
+#certifications a:hover {
+  color: #fff;
+}
+
